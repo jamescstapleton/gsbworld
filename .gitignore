@@ -1,0 +1,21 @@
+# Allow-list: ignore everything at the top level, then let through only what
+# belongs in the repo. New files stay out until they are added here.
+/*
+!/.gitignore
+!/README.md
+!/gsb_campus.py
+!/make_textures.py
+!/make_dialogue.py
+!/overlay_check.py
+!/textures/
+!/web/
+!/.github/
+
+# Never commit these, even if the rules above change.
+# Real names used to redact the emails:
+private_names.txt
+# Raw email export (its bodies contain real names):
+gsb_blast_emails.csv
+attachments.zip
+*.blend
+*.blend1
